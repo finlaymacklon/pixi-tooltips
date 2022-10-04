@@ -16,5 +16,8 @@
     "webpack": "^5.72.1",
     "webpack-cli": "^3.3.12",
     "webpack-merge": "^5.8.0"
+  },
+  "dependencies": {
+    "flatted": "^3.2.7"
   }
 }
