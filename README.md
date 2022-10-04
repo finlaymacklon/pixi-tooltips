@@ -7,7 +7,7 @@
 
 ### Install
 
-[**Chrome** extension installation details](https://github.com/dutiyesh/chrome-extension-cli)
+[**Chrome** extension installation details](https://github.com/dutiyesh/chrome-extension-cli/blob/master/README.md)
 
 ### Contribution
 
