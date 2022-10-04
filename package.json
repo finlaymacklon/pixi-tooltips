@@ -1,0 +1,20 @@
+{
+  "name": "pixi_tooltips",
+  "version": "0.1.0",
+  "description": "Debug a Pixi.js app through tooltips.",
+  "private": true,
+  "scripts": {
+    "watch": "./node_modules/webpack/bin/webpack.js --mode=development --watch --config config/webpack.config.js",
+    "build": "./node_modules/webpack/bin/webpack.js --mode=development --config config/webpack.config.js"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^6.4.1",
+    "css-loader": "^4.3.0",
+    "file-loader": "^6.2.0",
+    "mini-css-extract-plugin": "^0.10.1",
+    "size-plugin": "^2.0.2",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-merge": "^5.8.0"
+  }
+}

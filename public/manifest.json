@@ -1,0 +1,33 @@
+{
+  "manifest_version": 3,
+  "name": "Pixi Sampler",
+  "version": "0.2.0",
+  "description": "Exposes the <canvas> objects representation (COR) of PixiJS (i.e., the PIXI scene graph) to enable visual testing of PixiJS-based applications.",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Pixi Sampler",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "storage"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "run_at": "document_end",
+      "js": [
+        "contentScript.js"
+      ]
+    }
+  ],
+  "web_accessible_resources" : [
+    {
+      "resources": [ "inject.js", "PixiSampler.js", "Flatted.js" ],
+      "matches": [ "<all_urls>" ]
+    }
+  ]
+}
