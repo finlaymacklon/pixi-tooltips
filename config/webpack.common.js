@@ -60,6 +60,7 @@ const common = {
         },
         {
           from: PATHS.Flatted,
+          to: 'Flatted.js',
         }
       ]
     }),
