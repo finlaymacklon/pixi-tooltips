@@ -27,7 +27,7 @@
 12) The extension is now installed!
 
 ### Notes
-- If you have any questions or problems please let me know by posting an issue on this repository
+- If you have any questions or problems please let me know by [posting an issue on this repository](https://github.com/finlaymacklon/pixi-tooltips/issues/new)
 - Installation is not necessarily straightforward. Aim to add this extension to Chrome Web Store in the next few days.
 
 ## Usage
