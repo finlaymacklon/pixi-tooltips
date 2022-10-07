@@ -28,7 +28,7 @@
 
 ### Notes
 - If you have any questions or problems please let me know by [posting an issue on this repository](https://github.com/finlaymacklon/pixi-tooltips/issues/new)
-- Installation is not necessarily straightforward. Aim to add this extension to Chrome Web Store in the next few days.
+- Installation is not necessarily straightforward. I have submitted this extension to the Chrome Web Store for approval. Will update when live.
 
 ## Usage
 1) Open/navigate to your Pixi.js game/app in Google Chrome web browser
