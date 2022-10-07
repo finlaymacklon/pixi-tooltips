@@ -10,9 +10,7 @@
     "default_title": "Pixi Tooltips",
     "default_popup": "popup.html"
   },
-  "permissions": [
-    "storage"
-  ],
+  "permissions": [],
   "content_scripts": [
     {
       "matches": [
