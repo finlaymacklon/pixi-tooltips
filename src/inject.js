@@ -10,7 +10,7 @@ function addTooltip(pixi_sampler){
   const canvas = document.querySelector("canvas");
   const tooltip = document.createElement('div');
   tooltip.style.position = 'absolute';
-  tooltip.style.display = 'block';
+  tooltip.style.display = 'none';
   tooltip.style.width = '140px';
   tooltip.style.height = '60px';
   tooltip.style.background = 'white';
@@ -24,18 +24,17 @@ function addTooltip(pixi_sampler){
   tooltip.style.userSelect = 'none';
   tooltip.style.borderRadius = '6px';
   tooltip.style.opacity = 0.8;
-  tooltip.hidden = true;
   //canvas.parentElement.style.position = "relative";
   canvas.parentElement.appendChild(tooltip)
 
   canvas.addEventListener("mousemove", (e) => {
-    const scaleX = parseFloat(canvas.style.width) / canvas.width;
-    const scaleY = parseFloat(canvas.style.height) / canvas.height;
+    const scaleX = (parseFloat(canvas.style.width) / canvas.width) || (canvas.width / pixi_sampler.cor.width);
+    const scaleY = (parseFloat(canvas.style.height) / canvas.height) || (canvas.height / pixi_sampler.cor.height);
     const nodes = findNodesWithAsset(pixi_sampler.cor).flat(Infinity);
     // console.log(nodes);
     const showTooltip = nodes.map(o => {
       if (!o.visible || !o.renderable || o.worldAlpha <= 0) return;
-      if (!o?._texture?.baseTexture?.resource?.url) return;
+      // if (!o?._texture?.baseTexture?.resource?.url) return;
       let left = o.vertexData[0];// - o.cameraOffset.x;
       let top = o.vertexData[1];// - o.cameraOffset.y;
       let width = o.vertexData[2] - o.vertexData[0];
@@ -51,15 +50,15 @@ function addTooltip(pixi_sampler){
         tooltip.style.left = `${e.clientX-parseFloat(tooltip.style.width)-10}px`;
         tooltip.style.top = `${e.clientY-parseFloat(tooltip.style.height)-10}px`;
         const name = o.name || o.parent.name || o.parent.parent.name;
-        const key = o.key || o.fontName;
-        tooltip.innerText = `name: ${name},\nkey: ${key}`;
+        const asset = o._texture.baseTexture.resource.url || o.fontName;
+        tooltip.innerText = `name: ${name},\nkey: ${asset}`;
       }
       return isHit;
     }).reduce((total, val) => total || val, false);
     if (showTooltip) {
-      tooltip.hidden = false;
+      tooltip.style.display = "block";
     } else {
-      tooltip.hidden = true;
+      tooltip.style.display = "none";
     }
   })
 }
