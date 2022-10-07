@@ -4,6 +4,8 @@
 - Hover over a Pixi.js application to view information about textured objects through tooltips.
 - Currently only shows `name` (assuming its defined) and resource url
 
+Note: Would you prefer to see some other information, such as the coordinates, dimensions, ...? Please let me know by [posting an issue on this repository](https://github.com/finlaymacklon/pixi-tooltips/issues/new). Thanks!
+
 Example:
 
 <img width="320" alt="image" src="https://user-images.githubusercontent.com/49216954/194617814-1e43de41-a193-4c6e-8254-803ee3f83c11.png">
