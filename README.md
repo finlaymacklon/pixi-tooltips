@@ -10,7 +10,7 @@
 - `node.js` (and `npm`): [download the node installer here](https://nodejs.org/en/), or alternatively [use node version manager](https://github.com/nvm-sh/nvm)
 - Google Chrome web browser: [download Chrome](https://www.google.com/chrome/dr/download/)
 
-*If you have problems setting up git or node.js+npm please let me know by posting an issue on this repository. I will help you ASAP.*
+*If you have problems setting up git or node.js+npm please let me know by [posting an issue on this repository](https://github.com/finlaymacklon/pixi-tooltips/issues/new). I will help you ASAP.*
 
 ### Steps
 1) Clone this repository using a client like [GitHub desktop](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/adding-and-cloning-repositories/cloning-a-repository-from-github-to-github-desktop), or `git clone https://github.com/finlaymacklon/pixi-tooltips` (if you are comfortable with Windows Command Prompt/MacOS Terminal/Linux Shell)
