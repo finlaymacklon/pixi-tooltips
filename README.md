@@ -16,7 +16,7 @@
 1) Clone this repository using a client like [GitHub desktop](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/adding-and-cloning-repositories/cloning-a-repository-from-github-to-github-desktop), or `git clone https://github.com/finlaymacklon/pixi-tooltips` (if you are comfortable with Windows Command Prompt/MacOS Terminal/Linux Shell)
 2) Open the `pixi-tooltips` folder in your command prompt/terminal/shell: [Guide for Windows, MacOS, and Linux](https://www.groovypost.com/howto/open-command-window-terminal-window-specific-folder-windows-mac-linux/)
 3) You should now be in the `pixi-tooltips` folder in your command prompt/terminal/shell
-4) Run `npm run build` to build the `pixi-tooltips` Chrome Extension from the source code
+4) In your command prompt/terminal/shell, enter the command `npm run build` to build the `pixi-tooltips` Chrome Extension from the source code
 5) Check that the extension has succesfully been built: you should now have a `pixi-tooltips/build` folder
 6) Open the Google Chrome web browser
 7) In Chrome, open Settings by clicking on the three dots (ellipsis) in the top-right corner of the browser
