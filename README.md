@@ -2,6 +2,11 @@
 ## Features
 
 - Hover over a Pixi.js application to view information about textured objects through tooltips.
+- Currently only shows `name` (assuming its defined) and resource url
+
+Example:
+
+<img width="320" alt="image" src="https://user-images.githubusercontent.com/49216954/194617814-1e43de41-a193-4c6e-8254-803ee3f83c11.png">
 
 ## Install
 
