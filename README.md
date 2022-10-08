@@ -38,7 +38,7 @@ https://user-images.githubusercontent.com/49216954/194726692-cd474d0b-8230-4774-
 
 ## Contributing
 
-Please see [`contribute.md`](contribute.md)
+Please see [`CONTRIBUTING.md`](CONTRIBUTING.md)
 
 Suggestions and pull requests are welcomed!
 
