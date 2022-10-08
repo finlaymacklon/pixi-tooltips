@@ -1,10 +1,7 @@
 # 🔎 PIXI Tooltips
 
-A Google Chrome web extension for viewing information about textured objects through tooltips.
+A Google Chrome extension that enables hovering over a Pixi.js application to view information about textured objects through tooltips.
 
-## Features
-
-- Hover over a Pixi.js application to view information about textured objects through tooltips.
 - Currently only shows `name` (assuming its defined) and resource url
 
 Note: If you would prefer to see some other information, such as the coordinates or dimensions, then please let me know by [posting an issue on this repository](https://github.com/finlaymacklon/pixi-tooltips/issues/new). Thanks!
@@ -12,6 +9,12 @@ Note: If you would prefer to see some other information, such as the coordinates
 Example:
 
 <img width="320" alt="image" src="https://user-images.githubusercontent.com/49216954/194617814-1e43de41-a193-4c6e-8254-803ee3f83c11.png">
+
+
+## Tutorial
+
+https://user-images.githubusercontent.com/49216954/194726692-cd474d0b-8230-4774-a759-200f1589eb4d.MP4
+
 
 ## Install
 1) Download the zipped folder `pixi-tooltips-v0.0.1-alpha.zip` from [this release on GitHub](https://github.com/finlaymacklon/pixi-tooltips/releases/tag/v0.0.1)
