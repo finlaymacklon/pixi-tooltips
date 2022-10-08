@@ -2,6 +2,16 @@
 
 If you would like to contribute to the development of this extension, please read the steps outlined below.
 
+### Files
+
+* `config/`: Webpack configuration for this project.
+* `public/`: Popup files.
+    * `manifest.json`: Extension [configuration](https://developer.chrome.com/docs/extensions/mv3/manifest/).
+* `src/`: Source files for the popup, [service workers](https://developer.chrome.com/docs/extensions/mv3/intro/mv3-overview/#service-workers), and [content script](https://developer.chrome.com/docs/extensions/mv3/content_scripts/).
+* `.gitignore`: Lists files to be ignored in your Git repo.
+* `package.json`: Contains project configuration, scripts, and dependencies.
+* [`pixi-sampler`](https://github.com/finlaymacklon/pixi-sampler): A git submodule that exposes the Pixi.js Scene Graph to the Chrome Extension
+
 ### Requirements
 - `git`: [download the git installer here](https://git-scm.com/downloads)
 - `node.js` (and `npm`): [download the node installer here](https://nodejs.org/en/), or alternatively [use node version manager](https://github.com/nvm-sh/nvm)
