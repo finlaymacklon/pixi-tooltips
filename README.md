@@ -11,7 +11,7 @@ Example:
 <img width="320" alt="image" src="https://user-images.githubusercontent.com/49216954/194617814-1e43de41-a193-4c6e-8254-803ee3f83c11.png">
 
 ## Install
-1) Download the zip folder `pixi-tooltips-v0.0.1-alpha.zip` from [this release on GitHub](https://github.com/finlaymacklon/pixi-tooltips/releases/tag/v0.0.1)
+1) Download the zipped folder `pixi-tooltips-v0.0.1-alpha.zip` from [this release on GitHub](https://github.com/finlaymacklon/pixi-tooltips/releases/tag/v0.0.1)
 2) Unzip `pixi-tooltips-v0.0.1-alpha.zip`
 3) Open the Google Chrome web browser
 4) In Chrome, open Settings by clicking on the three dots (ellipsis) in the top-right corner of the browser
