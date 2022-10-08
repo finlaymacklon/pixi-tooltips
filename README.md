@@ -33,7 +33,7 @@ Example:
 2) Open the extensions toolbar in Chrome <img width="39" alt="Screen Shot 2022-10-06 at 10 28 59 PM" src="https://user-images.githubusercontent.com/49216954/194461889-1eca28e0-93fe-426f-bed1-a770a0d0cad7.png">
 3) Select the `Pixi Tooltips` extension
 4) Click the `Inject` button <img width="70" alt="Screen Shot 2022-10-06 at 10 30 45 PM" src="https://user-images.githubusercontent.com/49216954/194462083-eb0f1fc1-c12a-4f01-b1fe-0d6b05bd3350.png">
-5) You should see the status below the `Inject` button change from `NotInjected` to `Injected`
+5) You should see the status below the `Inject` button change from `NotInjected` to `OK`
 6) Hover over your Pixi.js game/app (i.e., the \<canvas\>) - tooltips should now appear!
 7) (Optional) Please provide feedback, especially if this doesn't work for you!!
 
