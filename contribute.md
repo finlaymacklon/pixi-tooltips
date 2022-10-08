@@ -1,6 +1,6 @@
 # Contributing
 
-If you would like to contribute to the development of this extension, please read the steps outlined below.
+If you would like to contribute to the development of this extension, please read the below guide/instructions
 
 ### Files
 
