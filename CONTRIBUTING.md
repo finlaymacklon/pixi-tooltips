@@ -28,7 +28,7 @@ If you would like to contribute to the development of this extension, please rea
 To test the extension after you have made changes to the source code, follow these steps:
 
 1) Open the `pixi-tooltips` folder in your command prompt/terminal/shell: [Guide for Windows, MacOS, and Linux](https://www.groovypost.com/howto/open-command-window-terminal-window-specific-folder-windows-mac-linux/)
-2) Enter the command `npm install --legacy-peer-deps` to install dependencies (**must include `--legacy-peer-deps` flag**)
+2) Enter the command `npm i -D` to install dependencies (**may need to include `--legacy-peer-deps` flag**)
 3) Enter the command `npm run build` to build the `pixi-tooltips` Chrome extension from the source code
 4) Check that the extension has succesfully been built: you should now have a `pixi-tooltips/build` folder
 5) Follow the installation steps #3 - 9 provided in [`README.md`](README.md), but instead of selecting the `pixi-tooltips` folder (at step 8), select the `pixi-tooltips/build` folder
