@@ -20,7 +20,8 @@ If you would like to contribute to the development of this extension, please rea
 *If you have problems setting up git or node.js+npm please let me know by [posting an issue on this repository](https://github.com/finlaymacklon/pixi-tooltips/issues/new). I will help you ASAP.*
 
 ### Forking and downloading the source
-Please see [this documentation provided by GitHub](https://docs.github.com/en/get-started/quickstart/fork-a-repo#forking-a-repository).
+- Please see [this documentation provided by GitHub](https://docs.github.com/en/get-started/quickstart/fork-a-repo#forking-a-repository) for how to fork the repository.
+- To clone the repository (with submodules), run the command `git clone --recurse-submodules https://github.com/finlaymacklon/pixi-tooltips`
 
 ### Building the extension from source
 
