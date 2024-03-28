@@ -1,5 +1,5 @@
 (() => {
-  const __PIXI_SAMPLER__ = new PixiSampler();
+  const __PIXI_SAMPLER__ = new PixiSamplerClient();
   window.__PIXI_SAMPLER__ = __PIXI_SAMPLER__;
   __PIXI_SAMPLER__.expose();
   addTooltip(__PIXI_SAMPLER__);

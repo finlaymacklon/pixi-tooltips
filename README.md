@@ -27,8 +27,6 @@ https://user-images.githubusercontent.com/49216954/194726692-cd474d0b-8230-4774-
 8) Select the `pixi-tooltips` folder
 9) The extension should now be installed
 
-*Alternatively, install the extension from the Chrome Web Store [at this link](https://chrome.google.com/webstore/detail/pixi-tooltips/lfnhcbhioifngngnidkioeahicfhokhd)*
-
 ### Usage
 1) Open/navigate to your Pixi.js game/app in Google Chrome web browser
 2) Open the extensions toolbar in Chrome <img width="39" alt="Screen Shot 2022-10-06 at 10 28 59 PM" src="https://user-images.githubusercontent.com/49216954/194461889-1eca28e0-93fe-426f-bed1-a770a0d0cad7.png">

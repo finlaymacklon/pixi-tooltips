@@ -56,7 +56,7 @@ const common = {
           context: 'public',
         },
         {
-          from: PATHS.PixiSampler,
+          from: PATHS.PixiSampler
         },
         {
           from: PATHS.Flatted,

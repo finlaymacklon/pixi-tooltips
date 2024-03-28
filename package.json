@@ -4,17 +4,19 @@
   "description": "Debug a Pixi.js app through tooltips.",
   "private": true,
   "scripts": {
+    "get-pixi-sampler": "curl -o src/PixiSampler.js https://raw.githubusercontent.com/asgaardlab/canvas-visual-bugs-testbed/develop/sampling/PixiSamplerClient.js",
+    "build": "./node_modules/webpack/bin/webpack.js --mode=development --config config/webpack.config.js",
     "watch": "./node_modules/webpack/bin/webpack.js --mode=development --watch --config config/webpack.config.js",
-    "build": "./node_modules/webpack/bin/webpack.js --mode=development --config config/webpack.config.js"
+    "get-then-build": "npm run get-pixi-sampler && npm run build"
   },
   "devDependencies": {
     "copy-webpack-plugin": "^6.4.1",
-    "css-loader": "^4.3.0",
+    "css-loader": "^6.10.0",
     "file-loader": "^6.2.0",
     "mini-css-extract-plugin": "^0.10.1",
-    "size-plugin": "^2.0.2",
+    "size-plugin": "^1.2.0",
     "webpack": "^5.72.1",
-    "webpack-cli": "^3.3.12",
+    "webpack-cli": "^5.1.4",
     "webpack-merge": "^5.8.0"
   },
   "dependencies": {
