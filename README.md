@@ -13,7 +13,7 @@ Example:
 
 ## Tutorial
 
-https://github.com/finlaymacklon/pixi-tooltips/assets/49216954/d4b544cd-218f-4ac5-ac2d-158fbd70fe97
+[Tutorial Video](https://github.com/finlaymacklon/pixi-tooltips/assets/49216954/d4b544cd-218f-4ac5-ac2d-158fbd70fe97 "Tutorial Video")
 
 ### Installation
 1) Download the zipped folder [`pixi-tooltips-v0.0.1-alpha.zip`](https://github.com/finlaymacklon/pixi-tooltips/releases/tag/v0.0.1)
