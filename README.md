@@ -16,8 +16,8 @@ Example:
 [Tutorial Video](https://github.com/finlaymacklon/pixi-tooltips/assets/49216954/d4b544cd-218f-4ac5-ac2d-158fbd70fe97 "Tutorial Video")
 
 ### Installation
-1) Download the zipped folder [`pixi-tooltips-v0.0.1-alpha.zip`](https://github.com/finlaymacklon/pixi-tooltips/releases/tag/v0.0.1)
-2) Unzip `pixi-tooltips-v0.0.1-alpha.zip`
+1) Download the zipped folder [`pixi-tooltips-v0.0.2-alpha.zip`](https://github.com/finlaymacklon/pixi-tooltips/releases/tag/pixi-tooltips-v0.0.2-alpha)
+2) Unzip `pixi-tooltips-v0.0.2-alpha.zip`
 3) Open the Google Chrome web browser
 4) In Chrome, open Settings by clicking on the three dots (ellipsis) in the top-right corner of the browser
 5) Navigate to `More Tools` > `Extensions`
